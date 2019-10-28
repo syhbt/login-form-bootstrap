@@ -1,0 +1,148 @@
+.login-cold {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/adventure-alpine-background-355747.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .login-cold {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/img/adventure-alpine-background-355747.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+}
+
+.login-cold .container {
+  max-width: 928px;
+  padding: 40px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #939faa;
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.9);
+}
+
+@media (min-width: 360px) and (max-width:767px) {
+  .login-cold .container {
+    max-width: 324px;
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #939faa;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.9);
+  }
+}
+
+.login-cold .logo {
+  text-align: center;
+  font-size: 95px;
+  color: #ffffff;
+}
+
+.login-cold .carousel-item img {
+  height: 500px;
+}
+
+.login-cold form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #969696;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+
+.login-cold form .tittle-cold {
+  margin: 0;
+  padding: 0 0 15px;
+  color: #fff;
+}
+
+.login-cold form .btn-light {
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+
+.login-cold form .btn-light:hover, .login-cold form .btn-light:active {
+  background: #3e3e3e;
+  outline: none;
+  color: white;
+}
+
+.login-cold form .form-check-label {
+  font-size: 14px;
+  color: #939faa;
+  opacity: 0.9;
+  padding-left: 5px;
+}
+
+.login-cold form .form-check-label:hover, .login-cold form .form-check-label:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-dark form .btn-light:active {
+  transform: translateY(1px);
+}
+
+.login-cold form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #939faa;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-cold form .forgot:hover, .login-cold form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-cold .label-register {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #939faa;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-cold .register {
+  padding-left: 5px;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-cold .register:hover, .login-cold .register:active {
+  opacity: 1;
+}
+
+@media (min-width: 360px) and (max-width:767px) {
+  .login-cold .col.col-md-8 {
+    display: none;
+  }
+}
+
